@@ -2,5 +2,8 @@
   "name": "mdb-standard-app",
   "version": "6.4.2",
   "homepage": "https://mdbootstrap.com/docs/standard/",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "evo-calendar": "^1.1.3"
+  }
 }
