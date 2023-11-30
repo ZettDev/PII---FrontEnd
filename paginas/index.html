@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Material Design for Bootstrap</title>
-    <link rel="icon" href="../img/mdb-favicon.ico" type="image/x-icon" />
+    <title>Usina Eco-Cultural</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -17,11 +16,13 @@
       href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
       data-tag="font"
     />
+    <link rel="stylesheet" type="text/css" href="../node_modules/evo-calendar/evo-calendar/css/evo-calendar.css"/>
+    <link rel="stylesheet" type="text/css" href="../node_modules/evo-calendar/evo-calendar/css/evo-calendar.midnight-blue.css"/>
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #2c4b09">
-        <div class="container-fluid">
+        <div class="container-fluid excluded">
           <a class="navbar-brand mx-5 ms-3" href="index.html"><img style="width: 100px" src="../public/logo_usina-200h.png" alt=""></a>
           <button
                   class="navbar-toggler"
@@ -125,7 +126,7 @@
                 Contamos com sua ajuda para apoiar o projeto! Visite agora o nosso abaixo-assinado e mostre o seu apoio ao nosso projeto.
               </p>
             </div>
-            <a href="https://secure.avaaz.org/community_petitions/po/prefeitura_municipal_de_sao_paulo_eu_apoio_incinerador_vergueiro_devera_ser_um_espaco_de_conscientizacao_ambiental_e_vida"><button type="button" class="btn btn-primary btn-lg fw-bold mt-3" style="background-color: #69A625">Assine Aqui!</button></a> 
+            <a href="https://secure.avaaz.org/community_petitions/po/prefeitura_municipal_de_sao_paulo_eu_apoio_incinerador_vergueiro_devera_ser_um_espaco_de_conscientizacao_ambiental_e_vida"><button type="button" class="btn btn-primary btn-lg fw-bold mt-3" style="background-color: #69A625">Assine Aqui!</button></a>
           </div>
         </div>
         <!-- Coluna para a imagem -->
@@ -135,7 +136,13 @@
       </div>
     </div>
 
-
+    <!--Calendário-->
+    <div style="border-bottom: 2px solid #4a7716; width: 100%; text-align: center; position: relative; top: 0;" class="mt-2"></div>
+    <div style="text-align: center;" class="">
+      <a style="font-size: 36px; font-weight: bold;">Calendário de Eventos</a>
+    </div>
+    <div style="border-bottom: 2px solid #4a7716; width: 100%; text-align: center; position: relative; top: 0;"></div>
+    <div id="calendar"></div>
 
     <footer class="text-center  bg-light text-muted">
       <section class="" style="color: white; background-color: #2C4B09FF">
@@ -156,7 +163,7 @@
                 <a href="incinerador.html" class="text-reset d-block">Incinerador</a>
                 <a href="abandonoAOcupacao.html" class="text-reset d-block">Abandono à ocupação</a>
               </p>
-              <a href="#!" style="color: white">
+              <a style="color: white">
                 <h6 class="text-uppercase fw-bold mb-0">
                   NOTÍCIAS
                 </h6>
@@ -212,5 +219,8 @@
     </footer>
     <script type="text/javascript" src="../js/mdb.min.js"></script>
     <script type="text/javascript"></script>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/evo-calendar/evo-calendar/js/evo-calendar.js"></script>
+    <script src="../js/calendar.js"></script>
   </body>
 </html>

@@ -1,11 +1,9 @@
 *{
     font-family: "Piazzolla", Helvetica, serif;
     font-size: 22px;
-
 }
 
 .text-container {
     max-width: 600px; /* Defina a largura máxima desejada em pixels ou outra unidade de medida */
     margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
 }
-
