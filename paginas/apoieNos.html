@@ -22,6 +22,10 @@
       border-top: 1px solid #ccc;
       margin: 20px 0;
     }
+    .image  img {
+      max-width: 80%;
+      height: auto;
+    }
     .qr-code img {
       max-width: 50%;
       height: auto;
@@ -136,6 +140,14 @@
     <section>
       <div class="container">
         <div class="row">
+          <div class="image col-centered">
+            <img src="/public/d.jpg" alt="QR Code">
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
           <div class="col-md-6 mt-3">
             <div class="qr-code-text col-centered">
               <p>Sua doação via PIX faz a diferença! Apoie nossa causa de forma rápida e segura escaneando nosso QR Code no seu app bancário. Seu apoio é vital para nossos projetos. Sua generosidade nos inspira a fazer ainda mais pela comunidade. Juntos, construímos um futuro melhor!</p>
@@ -243,8 +255,8 @@
             </div>
           </div>
         </div>
+        <br>
       </section>
-      <br>
     </footer>
 
     <script type="text/javascript" src="../js/mdb.min.js"></script>
