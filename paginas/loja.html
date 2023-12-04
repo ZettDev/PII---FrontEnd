@@ -19,15 +19,28 @@
 
     <style>
       .product-card {
-        border: 1px solid #ccc;
-        padding: 20px;
+        border: 1px solid #2C4B09FF;
+        padding: 10px;
         margin: 10px;
         text-align: center;
+        height: 450px;
+      }
+
+      .product-card-text {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 3;
+      }
+
+      .product-card-text p {
+        margin-bottom: 0;
       }
   
       .product-image {
-        width: 200px;
-        height: 200px;
+        width: 220px;
+        height: 220px;
         object-fit: cover;
         margin-bottom: 10px;
       }
@@ -129,97 +142,90 @@
       </nav>
     </header>
 
-     <!-- Linha 1 -->
-    <div class="container">
+    <div class="container mt-4 mb-4">
       <div class="row">
-        <!-- Produto 1 -->
-        <div class="col-md-4">
+        <div class="col-md-6 col-lg-4 col-xl-4 col-xxl-3">
           <div class="product-card">
-            <img class="product-image" src="https://via.placeholder.com/200" alt="Product Image 1">
-            <h4>Nome do Produto 1</h4>
-            <p>Valor: R$ 100,00</p>
+            <img class="product-image justify-content-center mx-auto" src="../public/caneca_usina.png" alt="Imagem caneca">
+            <div class="product-card-text">
+              <p>Caneca Usina Eco-Cultural</p>
+            </div>
+            <h5>R$ 30,00</h5>
+            <button type="button" class="btn btn-primary btn-sm fw-bold" style="background-color: #69A625">Comprar</button>
           </div>
         </div>
-        <!-- Produto 2 -->
-        <div class="col-md-4">
+        <div class="col-md-6 col-lg-4 col-xl-4 col-xxl-3">
           <div class="product-card">
-            <img class="product-image" src="https://via.placeholder.com/200" alt="Product Image 2">
-            <h4>Nome do Produto 2</h4>
-            <p>Valor: R$ 150,00</p>
+            <img class="product-image" src="../public/toalha_usina.png" alt="Imagem toalha">
+            <div class="product-card-text">
+              <p>Toalha Usina Eco-Cultural</p>
+            </div>
+            <h5>R$ 40,00</h5>
+            <button type="button" class="btn btn-primary btn-sm fw-bold" style="background-color: #69A625">Comprar</button>
           </div>
         </div>
-        <!-- Produto 3 -->
-        <div class="col-md-4">
+        <div class="col-md-6 col-lg-4 col-xl-4 col-xxl-3">
           <div class="product-card">
-            <img class="product-image" src="https://via.placeholder.com/200" alt="Product Image 3">
-            <h4>Nome do Produto 3</h4>
-            <p>Valor: R$ 200,00</p>
+            <img class="product-image" src="../public/ima_usina.jpg" alt="Imagem imã">
+            <div class="product-card-text">
+              <p>Ímãs de geladeira Usina Eco-Cultural</p>
+            </div>
+            <h5 class="mt-0">R$ 10,00</h5>
+            <button type="button" class="btn btn-primary btn-sm fw-bold" style="background-color: #69A625">Comprar</button>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+          <div class="product-card">
+            <img class="product-image" src="../public/broche_usina.png" alt="Imagem broche">
+            <div class="product-card-text">
+              <p>Broche Usina Eco-Cultural</p>
+            </div>
+            <h5>R$ 10,00</h5>
+            <button type="button" class="btn btn-primary btn-sm fw-bold" style="background-color: #69A625">Comprar</button>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+          <div class="product-card">
+            <img class="product-image justify-content-center mx-auto" src="../public/ecobag_usina.png" alt="Imagem ecobag">
+            <div class="product-card-text">
+              <p>Ecobag Usina Eco-Cultural</p>
+            </div>
+            <h5>R$ 20,00</h5>
+            <button type="button" class="btn btn-primary btn-sm fw-bold" style="background-color: #69A625">Comprar</button>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+          <div class="product-card">
+            <img class="product-image" src="../public/caneta_usina.png" alt="Imagem caneta">
+            <div class="product-card-text">
+              <p>Caneta Usina Eco-Cultural</p>
+            </div>
+            <h5>R$ 5,00</h5>
+            <button type="button" class="btn btn-primary btn-sm fw-bold" style="background-color: #69A625">Comprar</button>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+          <div class="product-card">
+            <img class="product-image" src="../public/chaveiro_usina.png" alt="Imagem chaveiro">
+            <div class="product-card-text">
+              <p>Chaveiro Usina Eco-Cultural</p>
+            </div>
+            <h5>R$ 10,00</h5>
+            <button type="button" class="btn btn-primary btn-sm fw-bold" style="background-color: #69A625">Comprar</button>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+          <div class="product-card">
+            <img class="product-image" src="../public/camiseta_usina.png" alt="Imagem camiseta">
+            <div class="product-card-text">
+                <p>Camiseta Usina Eco-Cultural</p>
+            </div>
+            <h5>R$ 60,00</h5>
+            <button type="button" class="btn btn-primary btn-sm fw-bold" style="background-color: #69A625">Comprar</button>
           </div>
         </div>
       </div>
     </div>
-
-    <!-- Linha 2 -->
-    <div class="container">
-      <div class="row">
-        <!-- Produto 1 -->
-        <div class="col-md-4">
-          <div class="product-card">
-            <img class="product-image" src="https://via.placeholder.com/200" alt="Product Image 1">
-            <h4>Nome do Produto 1</h4>
-            <p>Valor: R$ 100,00</p>
-          </div>
-        </div>
-        <!-- Produto 2 -->
-        <div class="col-md-4">
-          <div class="product-card">
-            <img class="product-image" src="https://via.placeholder.com/200" alt="Product Image 2">
-            <h4>Nome do Produto 2</h4>
-            <p>Valor: R$ 150,00</p>
-          </div>
-        </div>
-        <!-- Produto 3 -->
-        <div class="col-md-4">
-          <div class="product-card">
-            <img class="product-image" src="https://via.placeholder.com/200" alt="Product Image 3">
-            <h4>Nome do Produto 3</h4>
-            <p>Valor: R$ 200,00</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- linha 3 -->
-    <div class="container">
-      <div class="row">
-        <!-- Produto 1 -->
-        <div class="col-md-4">
-          <div class="product-card">
-            <img class="product-image" src="https://via.placeholder.com/200" alt="Product Image 1">
-            <h4>Nome do Produto 1</h4>
-            <p>Valor: R$ 100,00</p>
-          </div>
-        </div>
-        <!-- Produto 2 -->
-        <div class="col-md-4">
-          <div class="product-card">
-            <img class="product-image" src="https://via.placeholder.com/200" alt="Product Image 2">
-            <h4>Nome do Produto 2</h4>
-            <p>Valor: R$ 150,00</p>
-          </div>
-        </div>
-        <!-- Produto 3 -->
-        <div class="col-md-4">
-          <div class="product-card">
-            <img class="product-image" src="https://via.placeholder.com/200" alt="Product Image 3">
-            <h4>Nome do Produto 3</h4>
-            <p>Valor: R$ 200,00</p>
-
-          </div>
-        </div>
-      </div>
-    </div>
-    
     
     <footer class="text-center  bg-light text-muted">
       <section class="" style="color: white; background-color: #2C4B09FF">
@@ -240,7 +246,7 @@
                 <a href="incinerador.html" class="text-reset d-block">Incinerador</a>
                 <a href="abandonoAOcupacao.html" class="text-reset d-block">Abandono à ocupação</a>
               </p>
-              <a href="#!" style="color: white">
+              <a href="" style="color: white">
                 <h6 class="text-uppercase fw-bold mb-0">
                   NOTÍCIAS
                 </h6>
@@ -296,8 +302,6 @@
     </footer>
     <script type="text/javascript" src="../js/mdb.min.js"></script>
     <script type="text/javascript"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
   </body>
 </html>
