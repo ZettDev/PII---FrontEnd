@@ -16,7 +16,27 @@
       href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
       data-tag="font"
     />
-    
+    <style>
+
+    .section-divider {
+      border-top: 1px solid #ccc;
+      margin: 20px 0;
+    }
+    .qr-code img {
+      max-width: 50%;
+      height: auto;
+    }
+    .contacts,
+    .text-below,
+    .qr-code-text {
+      text-align: center;
+    }
+    .col-centered {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    </style>
   
   </head>
   <body>
@@ -112,11 +132,46 @@
         </div>
       </nav>
     </header>
+    
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mt-3">
+            <div class="qr-code-text col-centered">
+              <p>Sua doação via PIX faz a diferença! Apoie nossa causa de forma rápida e segura escaneando nosso QR Code no seu app bancário. Seu apoio é vital para nossos projetos. Sua generosidade nos inspira a fazer ainda mais pela comunidade. Juntos, construímos um futuro melhor!</p>
+            </div>
+          </div>
+          <div class="col-md-6 ">
+            <div class="qr-code col-centered">
+              <img src="/public/My_Instagram_QR_Code.png" alt="QR Code">
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="section-divider"></div>
 
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 ">
+            <div class="contacts">
+              <h3>Entre em contato conosco:</h3>
+              <p>Email: usina.eco.cultural@gmail.com</p>
+              <p>Telefone: (11) 98585-3114</p>
+            </div>
+          </div>
+    
+          <div class="col-md-6 ">
+            <div class="text-below">
+              <p>Faça parte da mudança! Aceitamos doações úteis para nossos eventos e iniciativas. Se tem algo para doar ou quer organizar um evento, entre em contato pelo e-mail ou telefone. Sua colaboração é essencial para fortalecer a comunidade. Juntos, podemos gerar impacto positivo!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
 
-
-
-
+       
+    </section>
     <footer class="text-center  bg-light text-muted">
       <section class="" style="color: white; background-color: #2C4B09FF">
         <div class="container text-center text-md-start">
@@ -189,9 +244,10 @@
           </div>
         </div>
       </section>
+      <br>
     </footer>
 
     <script type="text/javascript" src="../js/mdb.min.js"></script>
-    <script type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
