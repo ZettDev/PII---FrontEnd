@@ -16,137 +16,105 @@
       href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
       data-tag="font"
     />
-
-    <style>
-      .product-card {
-        border: 1px solid #2C4B09FF;
-        padding: 10px;
-        margin: 10px;
-        text-align: center;
-        height: 450px;
-      }
-
-      .product-card-text {
-        display: -webkit-box;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        -webkit-line-clamp: 3;
-      }
-
-      .product-card-text p {
-        margin-bottom: 0;
-      }
-  
-      .product-image {
-        width: 220px;
-        height: 220px;
-        object-fit: cover;
-        margin-bottom: 10px;
-      }
-    </style>
-    
-  
+    <link rel="stylesheet" href="../css/product_card.css">
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #2c4b09">
-        <div class="container-fluid">
-          <a class="navbar-brand mx-5 ms-3" href="index.html"><img style="width: 100px" src="../public/logo_usina-200h.png" alt=""></a>
-          <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-mdb-toggle="collapse"
-                  data-mdb-target="#navbarNav"
-                  aria-controls="navbarNav"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-          >
-            <i class="fas fa-bars"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #2c4b09">
+      <div class="container-fluid excluded">
+        <a class="navbar-brand mx-5 ms-3" href="index.html"><img style="width: 100px" src="../public/logo_usina_preto.png" alt="Logo Usina"></a>
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a
+                      class="nav-link dropdown-toggle"
+                      role="button"
+                      data-mdb-toggle="dropdown"
+                      aria-expanded="false"
+              >
+                O COLETIVO
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li>
+                  <a class="dropdown-item" href="comoSurgiu.html">Como surgiu</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="propostas.html">Propostas</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                      class="nav-link dropdown-toggle"
+                      role="button"
+                      data-mdb-toggle="dropdown"
+                      aria-expanded="false"
+              >
+                HISTÓRIA
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li>
+                  <a class="dropdown-item" href="incinerador.html">Incinerador</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="abandonoAOcupacao.html">Abandono à ocupação</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item nav-link" href="noticias.html" style="padding-right: 0 !important;">NOTÍCIAS</a>
+            </li>
+            <li class="dropdown">
+              <a
+                      class="nav-link dropdown-toggle"
+                      href="noticias.html"
+                      role="button"
+                      data-mdb-toggle="dropdown"
+                      aria-expanded="false"
+              ></a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li>
+                  <a class="dropdown-item" href="textos.html">Textos</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="fotos.html">Fotos</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="videos.html">Vídeos</a>
+                </li>
+              </ul>
+            <li class="nav-item">
+              <a class="nav-link active" href="loja.html">LOJA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="eventos.html">EVENTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="apoieNos.html">APOIE-NOS</a>
+            </li>
 
-              <li class="nav-item dropdown">
-                <a
-                        class="nav-link dropdown-toggle"
-                        href="#"
-                        role="button"
-                        data-mdb-toggle="dropdown"
-                        aria-expanded="false"
-                >
-                  O COLETIVO
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li>
-                    <a class="dropdown-item" href="comoSurgiu.html">Como surgiu</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="propostas.html">Propostas</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                        class="nav-link dropdown-toggle"
-                        href="#"
-                        role="button"
-                        data-mdb-toggle="dropdown"
-                        aria-expanded="false"
-                >
-                  HISTÓRIA
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li>
-                    <a class="dropdown-item" href="incinerador.html">Incinerador</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="abandonoAOcupacao.html">Abandono à ocupação</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                        class="nav-link dropdown-toggle"
-                        href="#"
-                        role="button"
-                        data-mdb-toggle="dropdown"
-                        aria-expanded="false"
-                >
-                  NOTÍCIAS
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li>
-                    <a class="dropdown-item" href="textos.html">Textos</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="fotos.html">Fotos</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="videos.html">Vídeos</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="loja.html">LOJA</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="eventos.html">EVENTOS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="apoieNos.html">APOIE-NOS</a>
-              </li>
-            </ul>
-          </div>
+          </ul>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
 
     <div class="container mt-4 mb-4">
       <div class="row">
         <div class="col-md-6 col-lg-4 col-xl-4 col-xxl-3">
           <div class="product-card">
-            <img class="product-image justify-content-center mx-auto" src="../public/caneca_usina.png" alt="Imagem caneca">
+            <img class="product-image justify-content-center mx-auto" src="../public/loja/caneca_usina.png" alt="Imagem caneca">
             <div class="product-card-text">
               <p>Caneca Usina Eco-Cultural</p>
             </div>
@@ -156,7 +124,7 @@
         </div>
         <div class="col-md-6 col-lg-4 col-xl-4 col-xxl-3">
           <div class="product-card">
-            <img class="product-image" src="../public/toalha_usina.png" alt="Imagem toalha">
+            <img class="product-image" src="../public/loja/toalha_usina.png" alt="Imagem toalha">
             <div class="product-card-text">
               <p>Toalha Usina Eco-Cultural</p>
             </div>
@@ -166,7 +134,7 @@
         </div>
         <div class="col-md-6 col-lg-4 col-xl-4 col-xxl-3">
           <div class="product-card">
-            <img class="product-image" src="../public/ima_usina.jpg" alt="Imagem imã">
+            <img class="product-image" src="../public/loja/ima_usina.jpg" alt="Imagem imã">
             <div class="product-card-text">
               <p>Ímãs de geladeira Usina Eco-Cultural</p>
             </div>
@@ -176,7 +144,7 @@
         </div>
         <div class="col-md-6 col-lg-4 col-xl-4 col-xxl-3">
           <div class="product-card">
-            <img class="product-image" src="../public/broche_usina.png" alt="Imagem broche">
+            <img class="product-image" src="../public/loja/broche_usina.png" alt="Imagem broche">
             <div class="product-card-text">
               <p>Broche Usina Eco-Cultural</p>
             </div>
@@ -186,7 +154,7 @@
         </div>
         <div class="col-md-6 col-lg-4 col-xl-4 col-xxl-3">
           <div class="product-card">
-            <img class="product-image justify-content-center mx-auto" src="../public/ecobag_usina.png" alt="Imagem ecobag">
+            <img class="product-image justify-content-center mx-auto" src="../public/loja/ecobag_usina.png" alt="Imagem ecobag">
             <div class="product-card-text">
               <p>Ecobag Usina Eco-Cultural</p>
             </div>
@@ -196,7 +164,7 @@
         </div>
         <div class="col-md-6 col-lg-4 col-xl-4 col-xxl-3">
           <div class="product-card">
-            <img class="product-image" src="../public/caneta_usina.png" alt="Imagem caneta">
+            <img class="product-image" src="../public/loja/caneta_usina.png" alt="Imagem caneta">
             <div class="product-card-text">
               <p>Caneta Usina Eco-Cultural</p>
             </div>
@@ -206,7 +174,7 @@
         </div>
         <div class="col-md-6 col-lg-4 col-xl-4 col-xxl-3">
           <div class="product-card">
-            <img class="product-image" src="../public/chaveiro_usina.png" alt="Imagem chaveiro">
+            <img class="product-image" src="../public/loja/chaveiro_usina.png" alt="Imagem chaveiro">
             <div class="product-card-text">
               <p>Chaveiro Usina Eco-Cultural</p>
             </div>
@@ -216,7 +184,7 @@
         </div>
         <div class="col-md-6 col-lg-4 col-xl-4 col-xxl-3">
           <div class="product-card">
-            <img class="product-image" src="../public/camiseta_usina.png" alt="Imagem camiseta">
+            <img class="product-image" src="../public/loja/camiseta_usina.png" alt="Imagem camiseta">
             <div class="product-card-text">
                 <p>Camiseta Usina Eco-Cultural</p>
             </div>
@@ -226,7 +194,7 @@
         </div>
       </div>
     </div>
-    
+
     <footer class="text-center  bg-light text-muted">
       <section class="" style="color: white; background-color: #2C4B09FF">
         <div class="container text-center text-md-start">
@@ -246,7 +214,7 @@
                 <a href="incinerador.html" class="text-reset d-block">Incinerador</a>
                 <a href="abandonoAOcupacao.html" class="text-reset d-block">Abandono à ocupação</a>
               </p>
-              <a href="" style="color: white">
+              <a href="noticias.html" style="color: white">
                 <h6 class="text-uppercase fw-bold mb-0">
                   NOTÍCIAS
                 </h6>

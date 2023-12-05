@@ -1,0 +1,26 @@
+.product-card {
+    border: 1px solid #2C4B09FF;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    height: 450px;
+}
+
+.product-card-text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+}
+
+.product-card-text p {
+    margin-bottom: 0;
+}
+
+.product-image {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}

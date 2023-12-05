@@ -7,3 +7,36 @@
     max-width: 600px; /* Defina a largura máxima desejada em pixels ou outra unidade de medida */
     margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
 }
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
+
+.dropdown:hover .dropdown-toggle::after {
+    border-bottom: 0.3em solid;
+    border-top: 0;
+}
+
+@media only screen and (min-width: 960px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+    .dropdown .dropdown-menu {
+        display: none;
+    }
+    .dropdown:hover .dropdown-toggle::after {
+        border-bottom: 0.3em solid;
+        border-top: 0;
+    }
+}
+@media screen and (max-width: 991px) {
+    .dropdown-toggle.show::after {
+        border-top: 0;
+        border-bottom: 0.3em solid;
+    }
+}
