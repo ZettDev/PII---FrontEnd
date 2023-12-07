@@ -30,9 +30,11 @@ Bem-vindo ao repositório do Portal Usina Eco-Cultural, um projeto de site reali
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-plain-wordmark.svg" alt="nodejs" width="40" height="40"/>  NodeJS
   </li>
 
-## Visualização do Projeto
+## Visualização da Página Inicial
 
-
+<img src="https://github.com/ZettDev/PII---FrontEnd/assets/131803879/1d6a5746-61eb-4ee7-8f64-3f9940df5896" alt="Página Inicial-1"/>
+<img src="https://github.com/ZettDev/PII---FrontEnd/assets/131803879/501d9ee4-02c8-4f97-acb5-5afc4a9a1c27" alt="Página Inicial-2"/>
+<img src="https://github.com/ZettDev/PII---FrontEnd/assets/131803879/eae9e90f-c6fa-4e43-8a52-c016b5676283" alt="Página Inicial-3"/>
 
 ## Como Executar
 
